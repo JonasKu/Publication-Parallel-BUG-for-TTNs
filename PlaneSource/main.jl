@@ -1,3 +1,7 @@
+using Pkg
+Pkg.activate(".")
+Pkg.instantiate()
+
 using ProgressMeter
 include("settings.jl")
 include("Rhs.jl")

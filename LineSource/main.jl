@@ -1,3 +1,7 @@
+using Pkg
+Pkg.activate(".")
+Pkg.instantiate()
+
 include("settings.jl")
 include("TTN.jl")
 include("Rhs.jl")
